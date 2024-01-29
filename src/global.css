@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --color-primary: #34d1bf;
   --color-primary-dark: #2cb8a3;
@@ -15,10 +19,6 @@
   --color-background-dark: #e5e5e5;
   --color-background-light: #ffffff;
 }
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
 .layout {
   @apply h-full max-h-fit my-12 mx-auto w-[90%] max-w-2xl bg-background-dark rounded-2xl py-8 px-4 flex flex-col items-center justify-center gap-4;
